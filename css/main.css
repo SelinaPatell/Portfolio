@@ -1,0 +1,165 @@
+/*DEVELOPER: Selina Patel, IS 117-102, Spring 2024*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ec297b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.text-muted {
+    color: #fff !important;
+}
+
+.profilephoto{
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Ensures aspect ratio is maintained */
+    border-radius: 50%;
+}
+
+#bootstrap-overrides {
+    background-color: #b6d6b5 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ec297b;
+    padding: 20px;
+}
+
+body{
+    background-color: #FFDAED;
+}
+
+section {
+    padding: 20px; /* Padding inside each section */
+}
+
+/*section img{*/
+/*     !*float: right;*/
+/*     margin: -200px 50px 10px 50px;*!*/
+
+/*    float: right;*/
+/*    max-width: 40%;*/
+/*    min-width: 150px;*/
+/*    margin: -200px 250px 50px 50px;*/
+
+/* }*/
+#about {
+    padding: 50px; /* Padding around the about section */
+    margin: 20px auto; /* Margin auto for center alignment */
+    text-align: center; /* Center text alignment */
+
+}
+
+#about h2{
+    font-size: 45px; /* Font size for heading */
+    margin-top: 50px;
+
+}
+
+#image img {
+    border-radius: 50%; /* Make the image circular */
+    width: 300px;
+    height: auto;
+    border: 3px solid #ddd; /* Border around the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 20px 80px;
+    float: right;
+
+
+}
+
+
+.icon {
+    width: 30px; /* Width of the icon (e.g., graduation hat) */
+    vertical-align: middle; /* Align icon vertically with text */
+}
+
+#education {
+    padding: 20px; /* Padding around the education section */
+    border-radius: 20px; /* Rounded corners */
+
+}
+
+.school {
+    background-color: #fff; /* Background color for school div */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside each school div */
+    margin: 20px auto; /* Centered margin */
+    max-width: 1000px; /* Maximum width */
+    text-align: center;
+}
+
+.school:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* Skills section styling */
+#skills {
+    margin: 40px 0; /* Margin around skills section */
+    text-align: center; /* Center text alignment */
+}
+
+.skills-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.skills-list li {
+    background-color: #333; /* Background color for each skill */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding inside each skill */
+    margin: 10px; /* Margin around each skill */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Shadow effect */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.skills-list li:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+
+@media only screen and (max-width: 734px) {
+    section .about {
+        font-size: 125%
+    }
+    section p {
+        font-size: 110%;
+    }
+    section img {
+        float: none;
+        margin: 0 auto 50px;
+    }
+
+}
+@media only screen and (max-width: 648px) {
+    section img{
+        max-width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .education-container {
+        padding: 0; /* Remove padding */
+    }
+    .school {
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+    }
+}
+
+
+
+
+
